@@ -307,7 +307,7 @@ button .btn:link,
 
 	.wrapper {
 		display: grid;
-		grid-template-columns: 90% 10%;
+		grid-template-columns: 80% 20%;
 	}
 
 	.brand-title img {
