@@ -9,6 +9,7 @@ body {
 	padding-left: 200px;
 }
 
+/* Navbar Start */
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -74,6 +75,9 @@ body {
 	border-radius: 10px;
 }
 
+/* Navbar End */
+
+/* Animation Definitions Start */
 @keyframes moveInRight {
 	0% {
 		opacity: 0;
@@ -112,6 +116,10 @@ body {
 		transform: translate(0);
 	}
 }
+
+/* Animation Definitions End */
+
+/* Heading Start */
 
 .wrapper {
 	display: grid;
@@ -176,6 +184,7 @@ body {
 	animation-fill-mode: backwards;
 }
 
+/* Button styling start */
 button .btn:link,
 .btn:visited {
 	text-transform: uppercase;
@@ -240,7 +249,9 @@ button .btn:link,
 }
 
 /* button End */
+/* Heading end */
 
+/* Site Responsiveness styles start */
 @media (max-width: 1550px) {
 	body {
 		padding-left: 50px;
@@ -325,3 +336,5 @@ button .btn:link,
 		display: none;
 	}
 }
+
+/* Site Responsiveness styles End */
