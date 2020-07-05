@@ -1,1 +1,2 @@
-# My-Personal-Site
+# mySite
+My Personal Portfolio Website
