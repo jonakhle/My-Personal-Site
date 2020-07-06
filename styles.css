@@ -18,10 +18,12 @@ body {
   padding: 1% 0%;
   top: 0px;
   background-color: white;
-  position: fixed;
-  /* box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3); */
+  /* position: fixed;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
   background: $white;
-  /* transition: all 0.5s; */
+  transition: all 0.5s;
+
+  width: 100%; */
 }
 
 .brand-title {
@@ -362,7 +364,7 @@ button .btn:link,
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   body {
     padding-left: 0px;
   }
@@ -381,6 +383,9 @@ button .btn:link,
     align-items: flex-start;
   }
 
+  .navbar-links {
+    margin-left: 0;
+  }
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
@@ -428,9 +433,36 @@ button .btn:link,
 
   .wrapper-about {
     display: block;
-
     text-align: center;
   }
+
+  /* Footer */
+  .social-icons {
+    color: #777777;
+    margin: 3% 15px;
+    font-size: 25px;
+  }
+
+  .copyright {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
 }
 
 /* Animation Definitions End */
+
+/* scroll  start*/
+
+html:not([data-scroll="0"]) body {
+  padding-top: 3em;
+}
+html:not([data-scroll="0"]) .navbar {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    width: 100%; */
+}
+/* scroll  end*/
