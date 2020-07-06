@@ -5,6 +5,10 @@ toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
 });
 
+navbarLinks.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
+
 //Listen For Scroll Start
 
 // The debounce function receives our function as a parameter
