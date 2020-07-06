@@ -135,18 +135,35 @@ html body {
   min-height: 100vh;
 }
 
-.home .itsme {
-  height: auto;
-  width: 20%;
-  margin-bottom: 50px;
-  animation: moveInBottom 0.5s ease-out 0.6s;
-  animation-fill-mode: backwards;
-}
-
 .home-left-side {
   /* margin: 5.8% 0; */
   padding-top: 25%;
   margin-left: 50px;
+}
+
+.home .me {
+  background: #90acd1;
+  padding: 18px;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  position: relative;
+  animation: moveInBottom 0.5s ease-out 0.6s;
+  animation-fill-mode: backwards;
+}
+
+.home .me::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  width: 0;
+  height: 0;
+  border-left: 26px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 24px solid #90acd1;
+  /* margin-bottom: 15px; */
 }
 
 .home h1 {
@@ -158,6 +175,7 @@ html body {
   animation: moveInBottom 1s ease-out 1s;
   animation-fill-mode: backwards;
   width: 80%;
+  margin-top: 20px;
 }
 
 .home p {
@@ -466,14 +484,6 @@ button .btn:link,
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 15px;
-  }
-
-  .home .itsme {
-    height: auto;
-    width: 120px;
-    margin-bottom: 50px;
-    animation: moveInBottom 0.5s ease-out 0.6s;
-    animation-fill-mode: backwards;
   }
 }
 
