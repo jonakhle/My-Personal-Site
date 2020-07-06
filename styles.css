@@ -21,6 +21,7 @@ html body {
   padding: 1% 0%;
   top: 0px;
   background-color: transparent;
+  z-index: 10;
 }
 
 .brand-title {
@@ -301,14 +302,11 @@ button .btn:link,
 .wrapper-about {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* padding-top: 2%; */
 }
 
 #about {
   background-color: #f6f8f8;
-}
-
-.wrapper-about {
-  padding-top: 5%;
 }
 
 #about h2 {
@@ -373,13 +371,22 @@ button .btn:link,
 /* Animation Definitions Start */
 
 @media (max-width: 1550px) {
-  body {
-    padding-left: 50px;
+  .home-left-side {
+    padding-top: 250px;
+  }
+
+  .my-img {
+    padding-top: 250px;
   }
 
   .wrapper {
     display: grid;
     grid-template-columns: 40% 40% 20%;
+  }
+
+  .navbar-links li a {
+    padding: 0 1rem;
+    font-size: 1.7vw;
   }
 }
 
