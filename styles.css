@@ -416,7 +416,7 @@ button .btn:link,
     font-size: 60px;
   }
   .home p {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .wrapper .middle-side {
@@ -448,7 +448,6 @@ button .btn:link,
     margin-top: 10px;
     font-size: 15px;
   }
-
 }
 
 /* Animation Definitions End */
@@ -463,6 +462,6 @@ html:not([data-scroll="0"]) .navbar {
   top: 0;
   background-color: #fff;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
-    width: 100%; */
+  width: 100%;
 }
 /* scroll  end*/
